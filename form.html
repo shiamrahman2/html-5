@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My form</title>
+    <link rel="stylesheet" href="style/form.css">
+</head>
+<body>
+    <header>
+           <h3> Careful Read below section and Filled Correctly</h3>
+    </header>
+    <main>
+             <fieldset class="basic">
+                <legend>Basic Information</legend>
+                <label for="name">Your Name</label>
+               <button> <input type="text" id="name"  placeholder="Your Name"></button><br>
+               <label for="pass">Your Email</label>
+               <button><input type="email" placeholder="Enter a valid email"></button>  
+             </fieldset>
+             <h3>You Can Choose Only One item of Each Section</h3>
+             <fieldset class="bangla">
+                <legend>About Bangla Food Section</legend>
+               
+                <input type="radio" name="Bangla" id="polaw">
+                 <label for="polaw">Polaw</label>
+               
+                <input type="radio" name="Bangla" id="normal">
+                 <label for="normal">Normal Rice</label>
+
+             </fieldset class=chines>
+             <br><br>
+             <fieldset>
+                <legend>Chinese Food Section</legend>
+                <input type="checkbox" name="Chinese" id="friedrice">
+                <label for="friedrice">Fried Rice</label>
+                <input type="checkbox" name="Chinese" id="burger">
+                <label for="burger">Burger</label>
+                <input type="checkbox" name="Chinese" id="pizza">
+                <label for="pizza">Pizza</label>
+             </fieldset>
+             <fieldset>
+                <legend>Your Review</legend>
+
+                <Textarea>Write something about our services</Textarea>
+             </fieldset>
+             <input type="submit" value="submit">
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
