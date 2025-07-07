@@ -1,0 +1,9 @@
+ nav li{
+            display: flex;
+            display:inline;
+            list-style: none;
+            color:black
+        }
+        nav li a{
+            text-decoration: none;
+        }
